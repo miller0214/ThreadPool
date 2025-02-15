@@ -15,7 +15,7 @@ public class main2 {
 		
 		
 				
-		 int maxNumber = 1000000;		
+		 int maxNumber = 100000000;		
 		 int mid = maxNumber / 2; // 將 1~100000 拆成兩部分
 
 
@@ -59,6 +59,8 @@ public class main2 {
 	        long resultSingle = 0;
 	        for (int i = 1; i <= maxNumber; i++) {
 	            resultSingle += i;
+	            
+	            System.out.println("單執行緒版本 sum:" + resultSingle);
 	        }
 
 	        long endTimeSingle = System.nanoTime();
