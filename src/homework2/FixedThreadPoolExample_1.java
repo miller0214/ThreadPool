@@ -2,7 +2,7 @@ package homework2;
 
 import java.util.concurrent.*;
 
-public class FixedThreadPoolExample {
+public class FixedThreadPoolExample_1 {
     public static void main(String[] args) {
         int taskCount = 100; // 總共 100 個任務
         int threadPoolSize = 10; // 使用 10 條執行緒

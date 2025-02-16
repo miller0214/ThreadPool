@@ -1,10 +1,10 @@
 package homework2;
 import java.util.concurrent.*;
 
-public class FibonacciCallable implements Callable<Integer> {
+public class FibonacciCallable_1 implements Callable<Integer> {
     private final int n;
 
-    public FibonacciCallable(int n) {
+    public FibonacciCallable_1(int n) {
         this.n = n;
     }
 
@@ -36,7 +36,7 @@ public class FibonacciCallable implements Callable<Integer> {
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
         // 提交 Callable 任務
-        Future<Integer> future = executor.submit(new FibonacciCallable(number));
+        Future<Integer> future = executor.submit(new FibonacciCallable_1(number));
 
         try {
             // 取得並印出結果
