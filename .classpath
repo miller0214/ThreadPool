@@ -6,5 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/David/Desktop/guava-33.4.0-jre.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
